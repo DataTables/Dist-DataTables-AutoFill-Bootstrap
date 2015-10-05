@@ -1,0 +1,29 @@
+{
+    "name": "datatables-autofill-bootstrap",
+    "version": "",
+    "description": "AutoFill for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
+    "files": [
+        "js/dataTables.autoFill.js",
+        "js/autoFill.bootstrap.js",
+        "css/autoFill.bootstrap.css"
+    ],
+    "main": "js/autoFill.bootstrap.js",
+    "keywords": [
+        "autofill",
+        "excel",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Bootstrap"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
