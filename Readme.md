@@ -19,7 +19,7 @@ npm install datatables-autofill-bootstrap
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables-autofill-bootstrap' )( $ );
+var dt = require( 'datatables-autofill-bootstrap' )( window, $ );
 ```
 
 ### bower
