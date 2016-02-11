@@ -1,6 +1,6 @@
 {
     "name": "datatables-autofill-bootstrap",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "AutoFill for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "files": [
         "js/autoFill.bootstrap.js",
