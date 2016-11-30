@@ -4,8 +4,6 @@
         "css/autoFill.bootstrap.min.css"
     ],
     "js": [
-        "js/dataTables.autoFill.js",
-        "js/dataTables.autoFill.min.js",
         "js/autoFill.bootstrap.js",
         "js/autoFill.bootstrap.min.js"
     ],
