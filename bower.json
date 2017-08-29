@@ -1,5 +1,5 @@
 {
-    "name": "datatables-autofill-bootstrap",
+    "name": "datatables-autofill-bs",
     "description": "AutoFill for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
         "js/dataTables.autoFill.js",
