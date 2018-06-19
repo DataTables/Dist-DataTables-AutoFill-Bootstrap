@@ -1,10 +1,10 @@
 {
     "name": "datatables-autofill-bs",
-    "version": "2.2.0",
-    "description": "AutoFill for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
+    "version": "2.3.0",
+    "description": "AutoFill for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "files": [
-        "js/autoFill.bootstrap.js",
-        "css/autoFill.bootstrap.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "main": "js/autoFill.bootstrap.js",
     "style": "css/autoFill.bootstrap.css",
@@ -24,7 +24,9 @@
         "url": "http://datatables.net"
     },
     "dependencies": {
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-bs": "^1.10.15",
+        "datatables.net-autofill": "2.3.0"
     },
     "repository": {
         "type": "git",
