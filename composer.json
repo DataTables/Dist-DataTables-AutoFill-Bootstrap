@@ -1,0 +1,27 @@
+
+{
+	"name": "datatables.net/datatables.net-autofill-bs",
+	"version": "2.3.5",
+	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the AutoFill extension for DataTables.", 
+	"homepage": "http://www.datatables.net/",
+	"authors": [{
+		"name": "SpryMedia",
+		"homepage": "https://datatables.net"
+	}], 
+	"license": [
+		"MIT"
+	],
+	"prefer-stable": true,
+	"support": {
+		"forum": "https://datatables.net/forums",
+		"source": "https://github.com/DataTables/Dist-DataTables-AutoFill-Bootstrap/"
+    },
+	"keywords": ["DataTables", "jQuery", "table", "autofill", "Bootstrap"],
+	"minimum-stability": "dev",
+    "require": {
+        "components/jquery":">=3.5.1",
+        "datatables.net/datatables.net":">=1.10.15",
+        "datatables.net/datatables.net-autofill":">=2.3.5",
+        "twbs/bootstrap": "3.*"
+    }
+}
