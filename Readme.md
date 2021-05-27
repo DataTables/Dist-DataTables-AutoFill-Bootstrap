@@ -1,6 +1,6 @@
-# AutoFill for DataTables with styling for [Bootstrap](http://getbootstrap.com/)
+# AutoFill for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains a built distribution of the [AutoFill extension](https://datatables.net/extensions/autofill) for [DataTables](https://datatables.net/) with styling for [Bootstrap](http://getbootstrap.com/).
+This package contains a built distribution of the [AutoFill extension](https://datatables.net/extensions/AutoFill) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 AutoFill adds an Excel like data fill option to DataTables, allowing click and drag over cells, filling in information and incrementing numbers as needed.
 
@@ -14,25 +14,25 @@ For inclusion of this library using a standard `<script>` tag, rather than using
 ### npm
 
 ```
-npm install datatables-autofill-bootstrap
+npm install datatables.net-autofill-bs
 ```
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables-autofill-bootstrap' )( window, $ );
+var dt = require( 'datatables.net-autofill-bs}' )( window, $ );
 ```
 
 ### bower
 
 ```
-bower install --save datatables-autofill-bootstrap
+bower install --save datatables.net-autofill-bs
 ```
 
 
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for AutoFill can be found [on the website](https://datatables.net/extensions/autofill).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+
