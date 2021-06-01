@@ -3,6 +3,7 @@
     "description": "AutoFill for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
     "main": "js/autoFill.bootstrap.js",
     "style": "css/autoFill.bootstrap.css",
+    "types": "./types/autoFill.bootstrap.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
