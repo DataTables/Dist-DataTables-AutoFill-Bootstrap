@@ -4,14 +4,14 @@
     "main": "js/autoFill.bootstrap.js",
     "style": "css/autoFill.bootstrap.css",
     "types": "./types/autoFill.bootstrap.d.ts",
-    "version": "2.3.7",
+    "version": "2.3.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "AutoFill",
- "Excel",
+        "Excel",
         "Bootstrap",
         "Datatables",
         "jQuery",
