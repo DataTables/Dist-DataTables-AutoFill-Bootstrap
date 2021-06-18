@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>AutoFill  Excel  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-autofill" version=">=2.3.7"/>
-            <dependency id="datatables.net-bs" version=">=1.10.24"/>
+            <dependency id="datatables.net-autofill" version=">=2.3.8"/>
+            <dependency id="datatables.net-bs" version=">=1.10.26-dev"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
