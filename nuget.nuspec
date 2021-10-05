@@ -11,7 +11,7 @@
         <tags>AutoFill  Excel  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-autofill" version="2.3.7"/>
-            <dependency id="datatables.net-bs" version="1.10.25"/>
+            <dependency id="datatables.net-bs" version="1.11.3"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
