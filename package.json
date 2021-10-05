@@ -4,14 +4,15 @@
     "main": "js/autoFill.bootstrap.js",
     "style": "css/autoFill.bootstrap.css",
     "types": "./types/autoFill.bootstrap.d.ts",
-    "version": "2.3.9",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -21,7 +22,7 @@
     ],
     "dependencies": {
         "datatables.net-autofill": ">=2.3.7",
-        "datatables.net-bs": ">=1.10.25",
+        "datatables.net-bs": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
