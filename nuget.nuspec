@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>2.3.9</version>
+        <version>2.3.7</version>
         <id>datatables.net-autofill-bs</id>
         <description>This is AutoFill for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)</description>
         <repository type="git" url="https://github.com/DataTables/Dist-DataTables-AutoFill-Bootstrap.git"/>
@@ -11,7 +11,7 @@
         <tags>AutoFill  Excel  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-autofill" version="2.3.7"/>
-            <dependency id="datatables.net-bs" version="1.11.3"/>
+            <dependency id="datatables.net-bs" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/autoFill.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/autoFill.bootstrap.min.css" target="content\Content"/>
         <file src="css/autoFill.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/autoFill.bootstrap.d.ts" target="content\Scripts"/>
-        <file src="types/autoFill.bootstrap.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
