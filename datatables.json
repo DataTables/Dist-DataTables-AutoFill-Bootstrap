@@ -1,4 +1,17 @@
 {
-    "last-sync": "fa20697f9691bfb1d1576b5a0c7a0c33e7960121",
-    "last-tag": "2.3.9"
+    "js": [
+        "js/autoFill.bootstrap.js",
+        "js/autoFill.bootstrap.min.js",
+        "js/autoFill.bootstrap.min.mjs",
+        "js/autoFill.bootstrap.mjs"
+    ],
+    "css": [
+        "css/autoFill.bootstrap.css",
+        "css/autoFill.bootstrap.min.css"
+    ],
+    "types": [
+        "types/autoFill.bootstrap.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/AutoFill",
+    "last-tag": "2.4.0"
 }

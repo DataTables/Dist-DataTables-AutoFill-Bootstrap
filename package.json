@@ -2,12 +2,14 @@
     "name": "datatables.net-autofill-bs",
     "description": "AutoFill for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
     "main": "js/autoFill.bootstrap.js",
+    "module": "js/autoFill.bootstrap.mjs",
     "style": "css/autoFill.bootstrap.css",
     "types": "./types/autoFill.bootstrap.d.ts",
     "version": "2.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
