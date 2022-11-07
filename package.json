@@ -5,7 +5,7 @@
     "module": "js/autoFill.bootstrap.mjs",
     "style": "css/autoFill.bootstrap.css",
     "types": "./types/types.d.ts",
-    "version": "2.5.0",
+    "version": "2.5.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
