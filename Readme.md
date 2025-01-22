@@ -1,6 +1,6 @@
 # AutoFill for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains a built distribution of the [AutoFill extension](https://datatables.net/extensions/autofill) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
+This is the distribution package for the [AutoFill extension](https://datatables.net/extensions/autofill) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 AutoFill adds an Excel like data fill option to DataTables, allowing click and drag over cells, filling in information and incrementing numbers as needed.
 
@@ -9,42 +9,37 @@ AutoFill adds an Excel like data fill option to DataTables, allowing click and d
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-bs
 npm install datatables.net-autofill-bs
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-autofill-bs' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-bs';
 import 'datatables.net-autofill-bs'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-autofill-bs
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for AutoFill can be found [on the website](https://datatables.net/extensions/autofill).
+Full documentation and examples for AutoFill can be found [on the DataTables website](https://datatables.net/extensions/autofill).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
