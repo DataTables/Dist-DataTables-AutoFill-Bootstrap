@@ -5,7 +5,7 @@
     "module": "js/autoFill.bootstrap.mjs",
     "style": "css/autoFill.bootstrap.css",
     "types": "./types/autoFill.bootstrap.d.ts",
-    "version": "2.7.1",
+    "version": "3.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -17,26 +17,14 @@
         "Excel",
         "Bootstrap",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": "2.7.1",
-        "datatables.net-bs": "1.11 - 2",
-        "jquery": ">=1.7"
+        "datatables.net-autofill": "3.0.0-beta.1",
+        "datatables.net-bs": "3.0.0-0"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -46,6 +34,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-AutoFill-Bootstrap.git"
+        "url": "git+https://github.com/DataTables/AutoFill.git"
     }
 }
