@@ -1,16 +1,13 @@
-/*! Bootstrap integration for DataTables' AutoFill
- * ©2015 SpryMedia Ltd - datatables.net/license
+/*! AutoFill Bootstrap 3 styling 3.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-bs';
 import AutoFill from 'datatables.net-autofill';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 DataTable.AutoFill.classes.btn = 'btn btn-primary';
 
 
 export default DataTable;
+
