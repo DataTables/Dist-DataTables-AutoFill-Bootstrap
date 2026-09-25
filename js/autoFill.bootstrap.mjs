@@ -1,4 +1,4 @@
-/*! AutoFill Bootstrap 3 styling 3.1.1 for DataTables
+/*! AutoFill Bootstrap 3 styling 3.1.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
